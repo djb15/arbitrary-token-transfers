@@ -7,8 +7,8 @@ import {IWormhole} from "wormhole-sdk/interfaces/IWormhole.sol";
 import {ITokenBridge} from "wormhole-sdk/interfaces/ITokenBridge.sol";
 import {BytesParsing} from "wormhole-sdk/libraries/BytesParsing.sol";
 import {IPermit2} from "permit2/IPermit2.sol";
-import {IPriceOracle} from "price-oracle/IPriceOracle.sol";
-import {PriceOracleIntegration} from "price-oracle/PriceOracleIntegration.sol";
+import {IPriceOracle} from "../interfaces/IPriceOracle.sol";
+import {PriceOracleIntegration} from "../price-oracle/PriceOracleIntegration.sol";
 
 /**
  * Decoding the command failed.

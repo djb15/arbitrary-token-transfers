@@ -9,7 +9,7 @@ import { IERC20 } from "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import { ITokenBridge } from "wormhole-sdk/interfaces/ITokenBridge.sol";
 import { BytesParsing } from "wormhole-sdk/libraries/BytesParsing.sol";
 import { IWETH } from "wormhole-sdk/interfaces/token/IWETH.sol";
-import { IPriceOracle } from "price-oracle/IPriceOracle.sol";
+import { IPriceOracle } from "../src/price-oracle/IPriceOracle.sol";
 import { toUniversalAddress } from "wormhole-sdk/Utils.sol";
 import { TbrTestBase } from "./utils/TbrTestBase.sol";
 import { craftTbrV3Vaa } from "./utils/utils.sol";

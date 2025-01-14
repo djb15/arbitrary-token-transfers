@@ -13,7 +13,7 @@ import {IERC20Permit} from "@openzeppelin/token/ERC20/extensions/IERC20Permit.so
 import {ISignatureTransfer, IAllowanceTransfer} from "permit2/IPermit2.sol";
 import {TRANSFER_TOKEN_WITH_RELAY_ID, TRANSFER_GAS_TOKEN_WITH_RELAY_ID, COMPLETE_TRANSFER_ID, RELAY_FEE_ID, BASE_RELAYING_CONFIG_ID, APPROVE_TOKEN_ID} from "./TbrIds.sol";
 import {TbrBase, InvalidCommand} from "./TbrBase.sol";
-import {GasDropoff, BaseFee} from "price-oracle/PriceOracleIntegration.sol";
+import {GasDropoff, BaseFee} from "../price-oracle/PriceOracleIntegration.sol";
 
 uint8 constant TBR_V3_MESSAGE_VERSION = 0;
 
